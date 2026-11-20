@@ -60,6 +60,7 @@ Load only the skills whose boundary is active:
 - `code-review` and `security-review` before packaging risky or cross-layer changes.
 - `pr-workflow` to capture evidence and open or update a reviewable draft pull request.
 - `pr-review` only when reviewing a named remote pull request.
+- `final-product-testing` when a feature-complete pull request must reach code freeze, clear final review and CI gates, and publish a comprehensive repository-hosted walkthrough without merging.
 
 For an unfamiliar or inherited repository with no accepted local engineering context, use `codebase-onboarding`. Run the static analysis, reconcile documentation with real journeys, create the project-owned contract and skill overlay, and let the user select the modernization program. Use `codebase-upgrade` later for a focused assessment or selected slice.
 

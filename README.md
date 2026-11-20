@@ -60,7 +60,7 @@ From the root of another repository, install the complete toolkit:
 pnpm dlx automated-product-engineer
 ```
 
-That one command detects Next.js, Expo, bare React Native, native iOS, Swift Package, native Android, or Kotlin Multiplatform projects and installs 20 agent skills, adapters for common AI coding tools, platform-specific architecture guides and examples, integration checklists, implementation templates, Supabase patterns, testing and CI workflows, evidence capture, and retrospective fix-back material. Reference material lives under `.automated-product-engineer/` so it remains inspectable without being mixed into the host application's runtime source.
+That one command detects Next.js, Expo, bare React Native, native iOS, Swift Package, native Android, or Kotlin Multiplatform projects and installs 21 agent skills, adapters for common AI coding tools, platform-specific architecture guides and examples, integration checklists, implementation templates, Supabase patterns, testing and CI workflows, evidence capture, and retrospective fix-back material. Reference material lives under `.automated-product-engineer/` so it remains inspectable without being mixed into the host application's runtime source.
 
 In an interactive terminal, the installer then offers to analyze the repository. It lets you choose review domains and creates a project-owned onboarding workspace plus a local skill overlay. Run the workflow directly or refresh its static evidence at any time:
 
