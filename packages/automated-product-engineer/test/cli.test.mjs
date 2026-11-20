@@ -388,6 +388,7 @@ test("install ships onboarding, upgrade analysis, and their local entry points",
     assert.equal(existsSync(path.join(root, ".agents", "skills", "codebase-upgrade", "references", "pattern-and-antipattern-catalog.md")), true);
     assert.equal(existsSync(path.join(root, ".agents", "skills", "codebase-upgrade", "references", "pattern-atlas.md")), true);
     assert.equal(existsSync(path.join(root, ".agents", "skills", "codebase-onboarding", "SKILL.md")), true);
+    assert.equal(existsSync(path.join(root, ".agents", "skills", "final-product-testing", "SKILL.md")), true);
     assert.equal(existsSync(path.join(root, ".automated-product-engineer", "docs", "codebase-upgrades.md")), true);
     assert.equal(existsSync(path.join(root, ".automated-product-engineer", "docs", "codebase-onboarding.md")), true);
     assert.match(readFileSync(path.join(root, ".automated-product-engineer", "INSTALLATION.md"), "utf8"), /automated-product-engineer audit/);

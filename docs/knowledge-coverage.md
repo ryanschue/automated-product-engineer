@@ -24,6 +24,7 @@ The original reusable workflows are represented by these installed skills:
 | Kotlin Multiplatform product kernels, common source sets, generated contracts, Swift interop, native Android/iOS shells, incremental adoption, and parallel CI | `kotlin-multiplatform-app` |
 | true parallel Next.js, native Android, and native iOS delivery through feature capsules, generated Kotlin/TypeScript policy, sibling lanes, semantic receipts, and contract epochs | `parallel-platform-development` |
 | real-browser exploratory QA | `manual-ui-qa` |
+| final release freeze and repository-hosted walkthrough evidence | `final-product-testing` |
 | remote pull-request review | `pr-review` |
 | branch, evidence, CI, and draft-PR workflow | `pr-workflow` |
 | responsive behavior | `responsive-design` |
